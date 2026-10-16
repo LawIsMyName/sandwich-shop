@@ -7,7 +7,6 @@ public class PointOfSale {
         double isRegular = 5.95;
         double isLarge = 8.95;
         int age = 17;
-        double discount1 = .90;
         double discount2 = .80;
 
         Scanner scanner = new Scanner(System.in);
@@ -25,6 +24,10 @@ public class PointOfSale {
 
         if (choice == isLarge) {
             double price = 8.95;
+        }
+
+        if (choice <= age) {
+            double discount1 = .90;
         }
 
 
