@@ -5,7 +5,7 @@ public class PointOfSale {
 
         System.out.println("Welcome to The sandwich shop");
         int age = 17;
-        double discount2 = .80;
+        double discount = .80;
 
         Scanner scanner = new Scanner(System.in);
 
@@ -28,9 +28,11 @@ public class PointOfSale {
         // add prompt
         int choiceAge = scanner.nextInt();
 
-        if (choice <= age) {
-            double discount1 = .90;
-        } else if ()
+        if (choiceAge <= age) {
+             discount = .90;
+        } else if (choiceAge >= age) {
+            double
+        }
 
 
 
