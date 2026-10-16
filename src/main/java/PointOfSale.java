@@ -15,7 +15,7 @@ public class PointOfSale {
                           2. large = 8.95""");
 
         int choice = scanner.nextInt();
-       // add prompt
+
         System.out.println("");
 
         double choicePrice = 0.0;
@@ -31,8 +31,11 @@ public class PointOfSale {
         if (choiceAge <= age) {
              discount = .90;
         } else if (choiceAge >= age) {
-            double
+             discount = .80;
+
         }
+
+        System.out.println("The total price is: " + choicePrice * discount);
 
 
 
