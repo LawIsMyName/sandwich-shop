@@ -23,6 +23,12 @@ public class PointOfSale {
                double price = 5.95;
         }
 
+        if (choice == isLarge) {
+            double price = 8.95;
+        }
+
+
+
 
 
 
