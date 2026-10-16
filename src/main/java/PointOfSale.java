@@ -16,7 +16,7 @@ public class PointOfSale {
 
         int choice = scanner.nextInt();
 
-        System.out.println("");
+        System.out.println("Enter option number: ");
 
         double choicePrice = 0.0;
 
@@ -25,7 +25,8 @@ public class PointOfSale {
         } else if (choice == 2 )  {
              choicePrice = 8.95;
         }
-        // add prompt
+        System.out.println("Enter age: ");
+
         int choiceAge = scanner.nextInt();
 
         if (choiceAge <= age) {
