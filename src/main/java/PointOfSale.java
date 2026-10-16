@@ -13,10 +13,10 @@ public class PointOfSale {
                           How can I take your order:
                           1. regular = 5.95
                           2. large = 8.95""");
+        System.out.println("Enter option number: ");
 
         int choice = scanner.nextInt();
 
-        System.out.println("Enter option number: ");
 
         double choicePrice = 0.0;
 
