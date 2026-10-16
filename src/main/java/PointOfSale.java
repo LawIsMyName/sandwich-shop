@@ -4,8 +4,6 @@ public class PointOfSale {
     public static void main(String[] args) {
 
         System.out.println("Welcome to The sandwich shop");
-        double isRegular = 5.95;
-        double isLarge = 8.95;
         int age = 17;
         double discount2 = .80;
 
@@ -17,18 +15,22 @@ public class PointOfSale {
                           2. large = 8.95""");
 
         int choice = scanner.nextInt();
+       // add prompt
+        System.out.println("");
 
-        if (choice == isRegular) {
-               double price = 5.95;
-        }
+        double choicePrice = 0.0;
 
-        if (choice == isLarge) {
-            double price = 8.95;
+        if (choice == 1) {
+            choicePrice = 5.95;
+        } else if (choice == 2 )  {
+             choicePrice = 8.95;
         }
+        // add prompt
+        int choiceAge = scanner.nextInt();
 
         if (choice <= age) {
             double discount1 = .90;
-        }
+        } else if ()
 
 
 
@@ -53,4 +55,4 @@ public class PointOfSale {
 
 
     }
-}
+
